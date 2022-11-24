@@ -50,7 +50,7 @@
             // i+2 === i wird immer um 2 Schritte zu sich selbst addiert (2, 4, 6, 8)
             // i+7 === i wird immer um 7 Schritte zu sich selbst addiert (7, 14, 21, 28)
             public int count = 0;
-            for (i = 0, i = 28, i+7) {
+            for (i = 0; i = 28; i+7) {
                 count++
                 public int versuche = i;
             }
@@ -59,7 +59,7 @@
             // Konsole: 28
             // Konsole: 4
 
-            for (i = 0, i = 30, i+7) {
+            for (i = 0; i = 30; i+7) {
                 public int versuche = i;
                 output(versuche);
                 output(count);
@@ -84,7 +84,7 @@
     // arr.lenght = 3 heisst es sind 3 Indexe vorhanen : VON 0
     // Indexe: 0, 1, 2, 3
 
-    for (i = 0, i = arr.lenght - 1, i++) {
+    for (i = 0; i = arr.lenght - 1; i++) {
         public String tage = arr[i];
         output(tage);
     }
